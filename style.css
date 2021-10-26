@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(12, 12, 12);
+    color: rgb(222, 222, 222);
+}
+
+header {
+    /*border: 1px solid blue;*/
+}
+nav {
+    margin: 0px;
+    /*background-color: rgb(8, 8, 8);*/
+    height: 50px;
+    border-bottom: 1px solid rgb(56, 55, 55);
+    padding: 15px 100px 20px 35px;
+}
+
+#logo {
+    width: 55px;
+    float: left;
+
+}
+
+#whiteRoundIcons {
+    border-radius: 100%;
+    background-color: #ecb390;
+}
+
+#whiteRoundIcons:hover {
+    background-color: #ecb390;
+
+}
+
+#logoText {
+    float: left;
+    margin: 16px 20px 0px 2px;
+    font-size: 24px;
+    /*border: 1px solid red;*/
+}
+
+#logoText:hover {
+    color: #ecb390;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 4px 4px 10px;
+    margin: 15px 20px;
+    font-size: 20px;
+    border-bottom: 1.5px solid rgb(12, 12, 12);
+}
+nav ul li:hover{
+    color: #ecb390;
+    border-bottom: 1.5px solid #ecb390 ;
+}
+
+#introSection {
+    float: left;
+    width: 40%;
+    margin: 10% 0% 0% 7%;
+    /*border: 1px solid red;*/
+    padding: 10px;
+    background-color: rgba(200, 200, 200, 0.01);
+    border-radius: 100%;
+}
+
+#tagline {
+    color: #ecb390;
+    font-size: 25px;
+    margin: 0px 0px -10px 6px;
+}
+
+#headTitle {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#slogan {
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    margin: 8px 0px 0px 6px;
+}
+
+#introParagraph {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 4px;
+    color: rgb(160, 160, 160);
+
+}
+
+
+#CTA {
+    margin-top: 40px;
+    padding: 8px 40px;
+    border-radius: 20px;
+    font-size: 24px;
+    border-style: hidden;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #ecb390;
+}
+
+#CTA:hover {
+    font-size: 24px;
+    color: black;
+    padding: 10px 50px;
+    background-image: linear-gradient(#ecb390, #fc6767);
+    /*rgb(52, 52, 216);  ecb390 */
+}
+
+#introIllustration {
+    float: right;
+    width: 46%;
+    margin: 10% 2% 0% 0%;
+    /*border: 1px solid red;*/
+}
