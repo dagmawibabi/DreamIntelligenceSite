@@ -1,3 +1,5 @@
+/* USED THIS COLOR #585879 FOR UNDRAW ILLUSTRATIONS */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,7 +21,7 @@ body::-webkit-scrollbar {
 }
 
 a:link {
-    color: red;
+    color: rgb(222, 222, 222);
     text-decoration: none;
 }
 
@@ -41,10 +43,10 @@ nav {
     top: 0px;
     right: 0px;
     left: 0px;
-    background-color: rgba(12, 12, 12, 0.92);
     margin: 0px;
     /*background-color: rgb(8, 8, 8);*/
     height: 50px;
+    background-color: rgba(12, 12, 12, 0.92);
     border-bottom: 1px solid rgb(56, 55, 55);
     padding: 15px 100px 20px 35px;
 }
@@ -166,10 +168,9 @@ nav ul li:hover{
 
 
 /* P R O J E C T S */
-
 #projects {
-    height: 110vh;
-    padding: 7% 5%;
+    height: 120vh;
+    padding: 6% 5%;
     background-color: rgb(68, 68, 68, 0.15);
     /*border: 1px solid red;*/
 }
@@ -179,7 +180,13 @@ nav ul li:hover{
     font-weight: bold;
     margin-left: -2%;
     font-size: 65px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+#sectionSubtitle {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 #sectionParagraph {
@@ -229,4 +236,145 @@ nav ul li:hover{
 #indieProjects:hover {
     color: white;
     background-color: #ecb390;/*rgb(43, 42, 42, 0.2);*/
+}
+
+
+/* S E R V I C E S */
+#services {
+    height: 300vh;
+    padding: 6% 5%;
+    background-color: rgb(26, 26, 26); /*rgb(29,30,33);*/
+    /*border: 1px solid red;*/
+}
+
+#shortHR {
+    margin-left: 38%;
+    width: 350px;
+    border-color: rgb(70, 70, 70);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#shorterHR {
+    margin-left: 42%;
+    width: 250px;
+    border-color: rgb(50, 50, 50);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#shortestHR {
+    margin-left: 45%;
+    width: 150px;
+    border-color: rgb(40, 40, 40);
+}
+
+#indieServices {
+    padding: 1% 2%;
+    height: 50vh;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    /*border: 1px solid red;*/
+}
+
+#serviceIllustration {
+    width: 500px;
+    height: 350px;
+    margin-top: 30px;
+    /*border: 1px solid red;*/
+}
+
+#serviceTitle {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+#serviceDescription {
+    width: 45%;
+    margin-top: 8%;
+    /*border: 1px solid red;*/
+}
+
+.serviceFloatLeftIllustrations {
+    float: left;
+    margin-top: 15px;
+    margin-left: 170px;
+}
+
+.serviceFloatRightIllustrations {
+    float: right;
+    margin-right: 220px;
+}
+
+.serviceFloatLeftDescriptions {
+    text-align: right;
+    float: left;
+    margin-left: 10px;
+}    
+
+.serviceFloatRightDescriptions {
+    float: right;
+    margin-right: 60px;
+}    
+
+
+/* S U M M A R R Y */
+
+#summary {
+    height: 300px;
+    color: rgb(120,120,120);
+    background-color: rgba(59, 59, 59, 0.099);
+    border-top: 1px solid rgb(56, 55, 55);
+    padding: 50px 100px 20px 25%;
+}
+
+#summaryBlocks {
+    padding: 30px;
+    text-align: center;
+    float: left;
+    /*border: 1px solid grey;*/
+    margin-left: 50px;
+}
+
+#summaryTitle {
+    font-size: 22px;
+    color: rgb(155, 155, 155);
+    padding-bottom: 10px;
+}
+#summaryTitle:hover {
+    color: #ecb390;
+}
+
+#summaryItems li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+#summaryItems li:hover {
+    color: #ecb390;
+}
+
+/* D E V  N O T E */
+#devNote {
+    height: 40px;
+    text-align: center;
+    height: 20px;
+    color: rgb(80,80,80);
+    background-color: rgba(59, 59, 59, 0.099);
+    padding: 30px 100px 60px 35px;
+}
+
+#devNote p {
+    padding: 30px;
+}
+
+/* F O O T E R */
+footer {
+    text-align: center;
+    height: 20px;
+    color: rgb(120,120,120);
+    background-color: rgba(12, 12, 12, 0.92);
+    border-top: 1px solid rgb(30, 30, 30);
+    padding: 15px 100px 20px 35px;
 }
