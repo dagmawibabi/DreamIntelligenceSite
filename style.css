@@ -1,4 +1,5 @@
 /* USED THIS COLOR #585879 FOR UNDRAW ILLUSTRATIONS */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 * {
     margin: 0px;
@@ -277,6 +278,11 @@ nav ul li:hover{
     /*border: 1px solid red;*/
 }
 
+#indieServices:hover {
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(26, 26, 26), rgb(20, 20, 30));
+}
+
 #serviceIllustration {
     width: 500px;
     height: 350px;
@@ -318,15 +324,59 @@ nav ul li:hover{
     margin-right: 60px;
 }    
 
+/* C O N T A C T  U S */
+#contacts {
+    height: 100vh;
+    padding: 6% 5% 1%;
+    background-color: rgb(30, 30, 30); /*rgb(29,30,33);*/
+    /*border: 1px solid red;*/
+}
+
+#gridOfSocials {
+    padding-top: 20px;
+    padding-left: 27vw;
+    height: 400px;
+    /*border: 1px solid red;*/
+}
+
+#eachSocial {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 100px;
+    background-color: rgb(26, 26, 26);
+    /*border: 1px solid red;*/
+}
+
+#eachSocial:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+#eachSocial:hover i {
+    color: #ecb390;
+}
+#eachSocial:hover a {
+    color: #ecb390;
+}
+
+.fab {
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+
 
 /* S U M M A R R Y */
 
 #summary {
-    height: 300px;
+    height: 250px;
     color: rgb(120,120,120);
     background-color: rgba(59, 59, 59, 0.099);
     border-top: 1px solid rgb(56, 55, 55);
-    padding: 50px 100px 20px 25%;
+    padding: 0px 100px 20px 25%;
 }
 
 #summaryBlocks {
