@@ -14,6 +14,7 @@ body {
     color: rgb(222, 222, 222);
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    font-family: Abel;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -75,6 +76,7 @@ nav {
     /*border: 1px solid red;*/
 }
 
+
 #logoText:hover {
     color: #ecb390;
 }
@@ -84,14 +86,24 @@ nav ul li{
     list-style: none;
     display: inline;
     float: right;
-    padding: 4px 4px 10px;
-    margin: 15px 20px;
+    /*padding: 4px 4px 10px;
+    
+    */
+    margin: 15px 2px;
+    padding: 6px 20px;
+    border-radius: 10px;
     font-size: 20px;
     border-bottom: 1.5px solid rgba(12, 12, 12, 0);
 }
 nav ul li:hover{
-    color: #ecb390;
-    border-bottom: 1.5px solid #ecb390 ;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    box-shadow: rgba(255, 255, 255, 0.247) 0px 7px 29px 0px;    /* color: #ecb390;
+    border-bottom: 1.5px solid #ecb390 ; */
+}
+
+nav ul li a:hover {
+    color: black;
 }
 
 #introduction {
@@ -151,12 +163,23 @@ nav ul li:hover{
 #CTA button {
     color: black;
 }
+
+#CTA a:hover {
+    color: black;
+
+}
 #CTA:hover {
     font-size: 24px;
     color: black;
+    background-color: rgb(235, 235, 235);
+    box-shadow: rgba(255, 255, 255, 0.247) 0px 7px 29px 0px;    /* color: #ecb390;
+    /*rgb(52, 52, 216);  ecb390 
+    
+    color: black;
     padding: 10px 50px;
     background-image: linear-gradient(#ecb390, #fc6767);
-    /*rgb(52, 52, 216);  ecb390 */
+    
+    */
 }
 
 #introIllustration {
