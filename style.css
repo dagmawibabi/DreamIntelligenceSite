@@ -30,12 +30,12 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: inherit;
+    color: unset;
 }
 
-a:hover {
+/*a:hover {
     color: #ecb390;
-}
+}*/
 
 #home {
     background-image: rgb(12, 12, 12); /*linear-gradient(rgb(12, 12, 12),rgb(20, 20, 20));*/
@@ -92,6 +92,10 @@ nav ul li{
     border-bottom: 1.5px solid rgba(12, 12, 12, 0);
 }
 
+header a:hover {
+    color: #ecb390;
+}
+
 #introduction {
     height: 90vh;
     padding-top: 7%;
@@ -137,24 +141,26 @@ nav ul li{
 #CTA {
     color: black;
     margin-top: 40px;
-    padding: 8px 40px;
+    padding: 4px 40px;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 22px;
     border-style: hidden;
     font-weight: 400;
     letter-spacing: 1px;
     background-color: #ecb390;
+    font-weight: bold;
 }
 
 #CTA button {
     color: black;
 }
 #CTA:hover {
-    font-size: 24px;
-    color: black;
-    padding: 10px 50px;
-    background-image: linear-gradient(#ecb390, #fc6767);
+    background-color: white;
     /*rgb(52, 52, 216);  ecb390 */
+}
+
+#CTA:hover button{
+    color: #ecb390;
 }
 
 #introIllustration {
@@ -168,7 +174,7 @@ nav ul li{
 
 /* P R O J E C T S */
 #projects {
-    height: 120vh;
+    height: 280vh;
     padding: 6% 5%;
     background-color: rgb(68, 68, 68, 0.15);
     /*border: 1px solid red;*/
@@ -203,10 +209,10 @@ nav ul li{
     padding: 4px 2px;
     /*border: 1px solid blue;*/
 }
-#indieProjects {
+.indieProjects {
     display: inline-block;
-    width: 20vw;
-    height: 35vh;
+    width: 19vw;
+    height: fit-content;
     margin: 0.5% 4% 1% 0%;
     padding: 30px;
     border-radius: 20px;
@@ -215,9 +221,9 @@ nav ul li{
     background-image: linear-gradient(rgb(43, 42, 42, 0.5), black);
 }
 
-#indieProjects img {
-    width: 340px;
-    height: 250px;
+.indieProjects img {
+    width: 320px;
+    height: 320px;
     padding-bottom: 5px;
     border-radius: 4%;
 }
@@ -225,6 +231,7 @@ nav ul li{
 #imageTitle {
     font-weight: bold;
     font-size: 26px;
+    margin-bottom: 10px;
 }
 
 #imageDescription {
@@ -232,7 +239,7 @@ nav ul li{
     color:rgb(180, 180, 180);
 }
 
-#indieProjects:hover {
+.indieProjects:hover {
     color: white;
     background-color: #ecb390;/*rgb(43, 42, 42, 0.2);*/
 }
@@ -268,7 +275,7 @@ nav ul li{
     border-color: rgb(40, 40, 40);
 }
 
-#indieServices {
+.indieServices {
     padding: 1% 2%;
     height: 50vh;
     border-radius: 10px;
@@ -276,9 +283,10 @@ nav ul li{
     /*border: 1px solid red;*/
 }
 
-#indieServices:hover {
+.indieServices:hover {
     border-radius: 10px;
-    background-image: linear-gradient(rgb(26, 26, 26), rgb(20, 20, 30));
+    background-image: linear-gradient(rgb(26, 26, 26), #ecb39005, rgb(20, 20, 30), rgb(20, 20, 30), rgb(26, 26, 26));
+   /* background-image: linear-gradient(rgb(26, 26, 26), rgb(20, 20, 30));*/
 }
 
 #serviceIllustration {
